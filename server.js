@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 import bodyParser from "body-parser";
 import mongodb from "mongodb";
 const ObjectID = mongodb.ObjectID;
