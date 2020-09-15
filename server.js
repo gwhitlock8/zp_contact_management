@@ -1,6 +1,6 @@
 const express = require("express");
-import bodyParser from "body-parser";
-import mongodb from "mongodb";
+const bodyParser = require("body-parser");
+const mongodb = require("mongodb");
 const ObjectID = mongodb.ObjectID;
 
 const CONTACTS_COLLECTION = "contacts";
